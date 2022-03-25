@@ -7,7 +7,7 @@ import Home from './Home'
 import About from './About'
 import { Container } from 'react-bootstrap'
 import Cart from './Cart'
-import { createContext, useState } from 'react'
+import { useState } from 'react'
 import { CartContext } from './Contexts/CartContext'
 
 export default function App() {
@@ -16,6 +16,12 @@ export default function App() {
 		<CartContext.Provider value={{ cart, setCart }}>
 			<div className="App">
 				<Header />
+				<div class="jumbotron jumbotron-fluid">
+					<Container>
+						<h1>Cart Assignment !</h1>
+						<p>Try to add and remove items to and from cart</p>
+					</Container>
+				</div>
 				<main className="py-3">
 					<Container>
 						<Routes>

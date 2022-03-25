@@ -6,12 +6,12 @@ import { CartContext } from './Contexts/CartContext'
 
 export default function Header() {
 	const navigate = useNavigate()
-	const { cart, setCart } = useContext(CartContext)
+	const { cart} = useContext(CartContext)
 	return (
 		<>
 			<Navbar bg="dark" variant="dark" expand="lg">
 				<Container>
-					<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+					<Navbar.Brand href="#home">Cart Assignment</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="me-auto">

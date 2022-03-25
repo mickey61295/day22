@@ -5107,9 +5107,11 @@ a.badge-dark.focus {
 	box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 .jumbotron {
+	text-align: center;
 	padding: 2rem 1rem;
 	margin-bottom: 2rem;
-	background-color: #f7f7f9;
+	color: #1b1e21;
+	background-color: #d6d8d9;
 }
 @media (min-width: 576px) {
 	.jumbotron {
